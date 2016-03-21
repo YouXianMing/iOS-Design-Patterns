@@ -83,3 +83,14 @@
 * cocoa框架本身实现了装饰模式(category的方式实现了装饰模式)
 
 * 装饰模式指的是动态的给一个对象添加一些额外的职责,相对于继承子类来说,装饰模式更加灵活
+ 
+
+### ProxyPattern
+
+> [代理设计模式的完整实现](http://www.cnblogs.com/YouXianMing/p/4703259.html)
+
+![demo.png](http://images0.cnblogs.com/blog2015/607542/201508/042146434233445.png)
+
+* 代理模式大家都用过,但用抽象基类NSProxy实现代理估计鲜有人用
+* 本人用NSProxy实现了代理模式,对于理解消息转发机制有点帮助
+
