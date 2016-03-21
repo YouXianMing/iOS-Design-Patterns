@@ -106,3 +106,8 @@
 * 当一个类并不容易创建(比如有着复杂的组合对象),且复制已有的组合对象要比对副本修改更加容易,此时,可以考虑使用原型模式
 
 
+### BridgePattern
+
+> [桥接设计模式的完整实现](http://www.cnblogs.com/YouXianMing/p/4681186.html)
+
+![demo.gif](http://images0.cnblogs.com/blog2015/607542/201507/272035487505701.png)
