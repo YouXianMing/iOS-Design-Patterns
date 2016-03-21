@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C99FBA1B665C8000107B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FB91B665C8000107B3B /* main.m */; };
+		10C99FBD1B665C8000107B3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FBC1B665C8000107B3B /* AppDelegate.m */; };
+		10C99FC01B665C8000107B3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FBF1B665C8000107B3B /* ViewController.m */; };
+		10C99FC31B665C8000107B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C99FC11B665C8000107B3B /* Main.storyboard */; };
+		10C99FC51B665C8000107B3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C99FC41B665C8000107B3B /* Images.xcassets */; };
+		10C99FC81B665C8000107B3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C99FC61B665C8000107B3B /* LaunchScreen.xib */; };
+		10C99FE51B665C8D00107B3B /* GameBoyConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FDE1B665C8D00107B3B /* GameBoyConsoleController.m */; };
+		10C99FE61B665C8D00107B3B /* GameBoyEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FE01B665C8D00107B3B /* GameBoyEmulator.m */; };
+		10C99FE71B665C8D00107B3B /* GameGearConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FE21B665C8D00107B3B /* GameGearConsoleController.m */; };
+		10C99FE81B665C8D00107B3B /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FE41B665C8D00107B3B /* GameGearEmulator.m */; };
+		10C99FED1B665C9500107B3B /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FEA1B665C9500107B3B /* ConsoleController.m */; };
+		10C99FEE1B665C9500107B3B /* ConsoleEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C99FEC1B665C9500107B3B /* ConsoleEmulator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C99FB41B665C8000107B3B /* BridgePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C99FB81B665C8000107B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C99FB91B665C8000107B3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10C99FBB1B665C8000107B3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10C99FBC1B665C8000107B3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10C99FBE1B665C8000107B3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10C99FBF1B665C8000107B3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10C99FC21B665C8000107B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10C99FC41B665C8000107B3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10C99FC71B665C8000107B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		10C99FDD1B665C8D00107B3B /* GameBoyConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoyConsoleController.h; sourceTree = "<group>"; };
+		10C99FDE1B665C8D00107B3B /* GameBoyConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoyConsoleController.m; sourceTree = "<group>"; };
+		10C99FDF1B665C8D00107B3B /* GameBoyEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoyEmulator.h; sourceTree = "<group>"; };
+		10C99FE01B665C8D00107B3B /* GameBoyEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoyEmulator.m; sourceTree = "<group>"; };
+		10C99FE11B665C8D00107B3B /* GameGearConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameGearConsoleController.h; sourceTree = "<group>"; };
+		10C99FE21B665C8D00107B3B /* GameGearConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGearConsoleController.m; sourceTree = "<group>"; };
+		10C99FE31B665C8D00107B3B /* GameGearEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameGearEmulator.h; sourceTree = "<group>"; };
+		10C99FE41B665C8D00107B3B /* GameGearEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGearEmulator.m; sourceTree = "<group>"; };
+		10C99FE91B665C9500107B3B /* ConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleController.h; sourceTree = "<group>"; };
+		10C99FEA1B665C9500107B3B /* ConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
+		10C99FEB1B665C9500107B3B /* ConsoleEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleEmulator.h; sourceTree = "<group>"; };
+		10C99FEC1B665C9500107B3B /* ConsoleEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleEmulator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C99FB11B665C8000107B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C99FAB1B665C8000107B3B = {
+			isa = PBXGroup;
+			children = (
+				10C99FB61B665C8000107B3B /* BridgePattern */,
+				10C99FB51B665C8000107B3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C99FB51B665C8000107B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C99FB41B665C8000107B3B /* BridgePattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C99FB61B665C8000107B3B /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				10C99FBB1B665C8000107B3B /* AppDelegate.h */,
+				10C99FBC1B665C8000107B3B /* AppDelegate.m */,
+				10C99FBE1B665C8000107B3B /* ViewController.h */,
+				10C99FBF1B665C8000107B3B /* ViewController.m */,
+				10C99FDD1B665C8D00107B3B /* GameBoyConsoleController.h */,
+				10C99FDE1B665C8D00107B3B /* GameBoyConsoleController.m */,
+				10C99FDF1B665C8D00107B3B /* GameBoyEmulator.h */,
+				10C99FE01B665C8D00107B3B /* GameBoyEmulator.m */,
+				10C99FE11B665C8D00107B3B /* GameGearConsoleController.h */,
+				10C99FE21B665C8D00107B3B /* GameGearConsoleController.m */,
+				10C99FE31B665C8D00107B3B /* GameGearEmulator.h */,
+				10C99FE41B665C8D00107B3B /* GameGearEmulator.m */,
+				10C99FEF1B665C9E00107B3B /* Console */,
+				10C99FC11B665C8000107B3B /* Main.storyboard */,
+				10C99FC41B665C8000107B3B /* Images.xcassets */,
+				10C99FC61B665C8000107B3B /* LaunchScreen.xib */,
+				10C99FB71B665C8000107B3B /* Supporting Files */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+		10C99FB71B665C8000107B3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10C99FB81B665C8000107B3B /* Info.plist */,
+				10C99FB91B665C8000107B3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10C99FEF1B665C9E00107B3B /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				10C99FE91B665C9500107B3B /* ConsoleController.h */,
+				10C99FEA1B665C9500107B3B /* ConsoleController.m */,
+				10C99FEB1B665C9500107B3B /* ConsoleEmulator.h */,
+				10C99FEC1B665C9500107B3B /* ConsoleEmulator.m */,
+			);
+			name = Console;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C99FB31B665C8000107B3B /* BridgePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C99FD71B665C8100107B3B /* Build configuration list for PBXNativeTarget "BridgePattern" */;
+			buildPhases = (
+				10C99FB01B665C8000107B3B /* Sources */,
+				10C99FB11B665C8000107B3B /* Frameworks */,
+				10C99FB21B665C8000107B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgePattern;
+			productName = BridgePattern;
+			productReference = 10C99FB41B665C8000107B3B /* BridgePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C99FAC1B665C8000107B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YouXianMing;
+				TargetAttributes = {
+					10C99FB31B665C8000107B3B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 10C99FAF1B665C8000107B3B /* Build configuration list for PBXProject "BridgePattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10C99FAB1B665C8000107B3B;
+			productRefGroup = 10C99FB51B665C8000107B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C99FB31B665C8000107B3B /* BridgePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C99FB21B665C8000107B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C99FC31B665C8000107B3B /* Main.storyboard in Resources */,
+				10C99FC81B665C8000107B3B /* LaunchScreen.xib in Resources */,
+				10C99FC51B665C8000107B3B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C99FB01B665C8000107B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C99FE51B665C8D00107B3B /* GameBoyConsoleController.m in Sources */,
+				10C99FEE1B665C9500107B3B /* ConsoleEmulator.m in Sources */,
+				10C99FC01B665C8000107B3B /* ViewController.m in Sources */,
+				10C99FBD1B665C8000107B3B /* AppDelegate.m in Sources */,
+				10C99FE81B665C8D00107B3B /* GameGearEmulator.m in Sources */,
+				10C99FE61B665C8D00107B3B /* GameBoyEmulator.m in Sources */,
+				10C99FED1B665C9500107B3B /* ConsoleController.m in Sources */,
+				10C99FE71B665C8D00107B3B /* GameGearConsoleController.m in Sources */,
+				10C99FBA1B665C8000107B3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10C99FC11B665C8000107B3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C99FC21B665C8000107B3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10C99FC61B665C8000107B3B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C99FC71B665C8000107B3B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10C99FD51B665C8100107B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10C99FD61B665C8100107B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10C99FD81B665C8100107B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BridgePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YouXianMing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10C99FD91B665C8100107B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BridgePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YouXianMing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C99FAF1B665C8000107B3B /* Build configuration list for PBXProject "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C99FD51B665C8100107B3B /* Debug */,
+				10C99FD61B665C8100107B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C99FD71B665C8100107B3B /* Build configuration list for PBXNativeTarget "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C99FD81B665C8100107B3B /* Debug */,
+				10C99FD91B665C8100107B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10C99FAC1B665C8000107B3B /* Project object */;
+}
