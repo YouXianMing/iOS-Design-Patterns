@@ -13,9 +13,11 @@
 #import "StateTwo.h"
 
 typedef enum : NSUInteger {
-    iOS_developer     = 0x10,
+    
+    iOS_developer = 0x10,
     Android_developer,
     none,
+    
 } EWork;
 
 @interface NormalModel : NSObject

@@ -47,9 +47,8 @@
     
     // 适配器类
     BusinessCardAdapter *adapter = [[NormalModelAdapter alloc] initWithData:data];
-    
-    BusinessCardView *cardView = [[BusinessCardView alloc] initWithFrame:BUSINESS_FRAME];
-    cardView.center            = self.view.center;
+    BusinessCardView *cardView   = [[BusinessCardView alloc] initWithFrame:BUSINESS_FRAME];
+    cardView.center              = self.view.center;
     [cardView loadData:adapter];
     
     [self.view addSubview:cardView];
@@ -68,9 +67,8 @@
     
     // 适配器类
     BusinessCardAdapter *adapter = [[SpecialModelAdapter alloc] initWithData:data];
-    
-    BusinessCardView *cardView = [[BusinessCardView alloc] initWithFrame:BUSINESS_FRAME];
-    cardView.center            = self.view.center;
+    BusinessCardView *cardView   = [[BusinessCardView alloc] initWithFrame:BUSINESS_FRAME];
+    cardView.center              = self.view.center;
     [cardView loadData:adapter];
     
     [self.view addSubview:cardView];
@@ -95,9 +93,8 @@
     
     // 通用型适配器类(可以加载数据data1或者data2)
     BusinessCardAdapter *adapter = [[CommonUsedAdapter alloc] initWithData:data1];
-    
-    BusinessCardView *cardView = [[BusinessCardView alloc] initWithFrame:BUSINESS_FRAME];
-    cardView.center            = self.view.center;
+    BusinessCardView *cardView   = [[BusinessCardView alloc] initWithFrame:BUSINESS_FRAME];
+    cardView.center              = self.view.center;
     [cardView loadData:adapter];
     
     [self.view addSubview:cardView];

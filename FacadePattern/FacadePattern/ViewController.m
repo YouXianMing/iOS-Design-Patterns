@@ -20,9 +20,7 @@
     [super viewDidLoad];
 
     [ShapeMaker drawCircleAndRectangle];
-    
     [ShapeMaker drawCircleAndSquare];
-    
     [ShapeMaker drawAll];
 }
 

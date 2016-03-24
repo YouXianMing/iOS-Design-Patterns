@@ -22,8 +22,7 @@
 #pragma mark - 初始化
 - (instancetype)initWithFrame:(CGRect)frame withInputValidator:(InputValidator *)inputValidator {
     
-    self = [super initWithFrame:frame];
-    if (self) {
+    if (self = [super initWithFrame:frame]) {
     
         [self setup];
         

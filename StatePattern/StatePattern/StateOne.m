@@ -12,6 +12,7 @@
 @implementation StateOne
 
 - (void)handleData:(id)data {
+    
     NormalModel *model = data;
     model.workType     = iOS_developer;
     model.age          = @(28);

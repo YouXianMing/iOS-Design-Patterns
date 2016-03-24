@@ -67,19 +67,23 @@
 
 #pragma mark - 本地持久化
 + (void)storeValue:(id)value with:(NSString *)key {
+    
     [[NSUserDefaults standardUserDefaults] setObject:value forKey:key];
 }
 
 + (id)valueWithKey:(NSString *)key {
+    
     return [[NSUserDefaults standardUserDefaults] objectForKey:key];
 }
 
 #pragma mark - 使用FastCode来处理对象
 + (NSData *)makeDataWithValue:(id)value {
+    
     return [FastCoder dataWithRootObject:value];
 }
 
 + (id)makeObjectWithData:(NSData *)data {
+    
     return [FastCoder objectWithData:data];
 }
 

@@ -64,5 +64,4 @@
     return 80.f;
 }
 
-
 @end

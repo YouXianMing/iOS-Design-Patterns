@@ -19,8 +19,7 @@
 #pragma mark - 初始化
 - (instancetype)init {
     
-    self = [super init];
-    if (self) {
+    if (self = [super init]) {
     
         // 装饰对象包含一个真实对象的引用
         self.gamePlay = [GamePlay new];

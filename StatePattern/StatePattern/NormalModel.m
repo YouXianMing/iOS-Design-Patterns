@@ -11,6 +11,7 @@
 @implementation NormalModel
 
 - (void)requestState:(StateType *)type {
+    
     [type handleData:self];
 }
 

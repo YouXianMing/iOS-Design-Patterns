@@ -18,14 +18,11 @@
 
 - (void)viewDidLoad {
     
-    
     [super viewDidLoad];
-    
     
     BrandingFactory *acmeFactory = [AcmeBrandingFactory factory];
     [acmeFactory brandedView];
     [acmeFactory brandedMainButton];
-    
     
     BrandingFactory *sierraFactory = [SierraBrandingFactory factory];
     [sierraFactory brandedView];

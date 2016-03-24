@@ -44,7 +44,6 @@
     } else if ([subscriptionNumber isEqualToString:SCIENCE]) {
     
         NSLog(@"来自于科学美国人杂志的信息 - %@", message);
-        
     }
 }
 

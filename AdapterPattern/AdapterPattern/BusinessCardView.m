@@ -21,8 +21,7 @@
 #pragma mark - 初始化
 - (instancetype)initWithFrame:(CGRect)frame {
     
-    self = [super initWithFrame:frame];
-    if (self) {
+    if (self = [super initWithFrame:frame]) {
 
         [self setup];
     }
@@ -39,15 +38,12 @@
     self.layer.shadowRadius  = 1.f;
     self.layer.shadowColor   = [UIColor grayColor].CGColor;
     
-    
     self.nameLabel      = [[UILabel alloc] initWithFrame:CGRectMake(15, 10, 150, 25)];
     self.nameLabel.font = [UIFont fontWithName:@"Avenir-Light" size:20.f];
     [self addSubview:self.nameLabel];
     
-    
     self.lineView                 = [[UIView alloc] initWithFrame:CGRectMake(0, 45, 200, 5)];
     [self addSubview:self.lineView];
-    
     
     self.phoneNumberLabel               = [[UILabel alloc] initWithFrame:CGRectMake(41, 105, 150, 20)];
     self.phoneNumberLabel.textAlignment = NSTextAlignmentRight;

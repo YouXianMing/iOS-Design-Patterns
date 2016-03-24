@@ -12,6 +12,7 @@
 @implementation StateTwo
 
 - (void)handleData:(id)data {
+    
     NormalModel *model = data;
     model.workType     = Android_developer;
     model.age          = @(27);

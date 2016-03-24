@@ -12,8 +12,7 @@
 
 - (instancetype)initWithData:(id)data {
     
-    self = [super init];
-    if (self) {
+    if (self = [super init]) {
         
         self.data = data;
     }

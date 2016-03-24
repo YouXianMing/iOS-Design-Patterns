@@ -18,17 +18,14 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
- 
     
     BaseDevice *iPhone = [DeviceCreator deviceCreatorWithDeviceType:kiPhone];
     [iPhone phoneCall];
     NSLog(@"%@", [iPhone systemInfomation]);
     
-    
     BaseDevice *android = [DeviceCreator deviceCreatorWithDeviceType:kAndroid];
     [android phoneCall];
     NSLog(@"%@", [android systemInfomation]);
-    
     
     BaseDevice *windows = [DeviceCreator deviceCreatorWithDeviceType:kWindows];
     [windows phoneCall];

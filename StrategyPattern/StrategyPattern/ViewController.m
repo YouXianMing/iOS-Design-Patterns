@@ -31,7 +31,6 @@
     [super viewDidLoad];
  
     [self initCustomFields];
-    
     [self initButton];
 }
 
