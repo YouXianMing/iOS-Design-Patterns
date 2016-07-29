@@ -2,8 +2,8 @@
 //  main.m
 //  CompositePattern
 //
-//  Created by YouXianMing on 15/10/20.
-//  Copyright © 2015年 ZiPeiYi. All rights reserved.
+//  Created by YouXianMing on 16/7/29.
+//  Copyright © 2016年 YouXianMing. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

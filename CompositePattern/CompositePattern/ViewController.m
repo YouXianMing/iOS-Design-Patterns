@@ -51,7 +51,7 @@
     
     // 创建文件 D
     File *D = [File createWithFileType:kFile name:@"D"];
-
+    
     // 添加文件
     [self.rootFile add:A];
     [self.rootFile add:B];
@@ -77,12 +77,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
+    
     return self.rootFile.files.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
+    
     FileCell *cell = [tableView dequeueReusableCellWithIdentifier:@"fileCell"];
     
     cell.data       = self.rootFile.files[indexPath.row];
@@ -96,7 +96,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-
+    
     return 80.f;
 }
 

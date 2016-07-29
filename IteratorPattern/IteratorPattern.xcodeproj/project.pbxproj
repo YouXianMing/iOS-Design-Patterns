@@ -283,7 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IteratorPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mc.TextCapital.IteratorPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouXianMing.IteratorPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -294,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IteratorPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mc.TextCapital.IteratorPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouXianMing.IteratorPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

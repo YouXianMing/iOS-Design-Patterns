@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  CompositePattern
 //
-//  Created by YouXianMing on 15/10/20.
-//  Copyright © 2015年 ZiPeiYi. All rights reserved.
+//  Created by YouXianMing on 16/7/29.
+//  Copyright © 2016年 YouXianMing. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     UINavigationController *navigationController = \
-        [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
     
     self.window                    = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor    = [UIColor whiteColor];
