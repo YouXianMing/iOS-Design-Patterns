@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AbstractFactoryPattern/../AdapterPattern/AdapterPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:VisitorPattern/VisitorPattern.xcodeproj">
    </FileRef>
    <FileRef
@@ -60,9 +63,6 @@
    </FileRef>
    <FileRef
       location = "group:BridgePattern/BridgePattern.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:AbstractFactoryPattern/../AdapterPattern/AdapterPattern.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:AbstractFactoryPattern/AbstractFactoryPattern.xcodeproj">

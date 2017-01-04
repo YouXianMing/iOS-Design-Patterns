@@ -18,16 +18,6 @@
 		10DB19201B6D819500FB88B4 /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB191F1B6D819500FB88B4 /* SierraBrandingFactory.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A6FBF25E1E1CE994007B0318 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A6FBF25A1E1CE994007B0318 /* AdapterPattern.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 10DDEA371B63A9270049814E;
-			remoteInfo = AdapterPattern;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		10DB18EF1B6D811800FB88B4 /* AbstractFactoryPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactoryPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DB18F31B6D811800FB88B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +35,6 @@
 		10DB191C1B6D818200FB88B4 /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
 		10DB191E1B6D819500FB88B4 /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
 		10DB191F1B6D819500FB88B4 /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
-		A6FBF25A1E1CE994007B0318 /* AdapterPattern.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AdapterPattern.xcodeproj; path = ../AdapterPattern/AdapterPattern.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +51,6 @@
 		10DB18E61B6D811800FB88B4 = {
 			isa = PBXGroup;
 			children = (
-				A6FBF25A1E1CE994007B0318 /* AdapterPattern.xcodeproj */,
 				10DB18F11B6D811800FB88B4 /* AbstractFactoryPattern */,
 				10DB18F01B6D811800FB88B4 /* Products */,
 			);
@@ -104,14 +92,6 @@
 				10DB18F41B6D811800FB88B4 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A6FBF25B1E1CE994007B0318 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A6FBF25F1E1CE994007B0318 /* AdapterPattern.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,28 +139,12 @@
 			mainGroup = 10DB18E61B6D811800FB88B4;
 			productRefGroup = 10DB18F01B6D811800FB88B4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A6FBF25B1E1CE994007B0318 /* Products */;
-					ProjectRef = A6FBF25A1E1CE994007B0318 /* AdapterPattern.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				10DB18EE1B6D811800FB88B4 /* AbstractFactoryPattern */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A6FBF25F1E1CE994007B0318 /* AdapterPattern.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = AdapterPattern.app;
-			remoteRef = A6FBF25E1E1CE994007B0318 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		10DB18ED1B6D811800FB88B4 /* Resources */ = {
