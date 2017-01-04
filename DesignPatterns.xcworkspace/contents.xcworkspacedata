@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:AbstractFactoryPattern/../AdapterPattern/AdapterPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VisitorPattern/VisitorPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TemplatePattern/TemplatePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StrategyPattern/StrategyPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StatePattern/StatePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingletonPattern/SingletonPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProxyPattern/ProxyPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrototypePattern/PrototypePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ObserverPattern/ObserverPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MementoPattern/MementoPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediatorPattern/MediatorPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IteratorPattern/IteratorPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FlyweightPattern/FlyweightPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FactoryPattern/FactoryPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FacadePattern/FacadePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DecoratorPattern/DecoratorPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CompositePattern/CompositePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommandPattern/CommandPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BuilderPattern/BuilderPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BridgePattern/BridgePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AbstractFactoryPattern/AbstractFactoryPattern.xcodeproj">
+   </FileRef>
+</Workspace>
