@@ -1,5 +1,10 @@
 # iOS-DesignPatterns
 
+> 广告
+
+美记（本人独立开发作品，感兴趣的朋友支持一下吧 ^_^）
+https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1390862464&mt=8
+
 ### MementoPattern
 
 > 备忘录设计模式的完整实现
